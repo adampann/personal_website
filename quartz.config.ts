@@ -8,6 +8,8 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
+    pageTitle: "Adam Pann",
+    baseUrl: "adampann.com", // Do not include https:// or trailing slashes
     pageTitle: "Quartz 4",
     pageTitleSuffix: "",
     enableSPA: true,
@@ -16,7 +18,6 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
