@@ -7,10 +7,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [],
   footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
-    },
+    links: {},
   }),
 }
 
@@ -38,6 +35,14 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
+    Component.RecentNotes({
+      title: "Recent Updates",
+      limit: 5,
+      // This filter includes both the 'posts' and 'thoughts' folders
+      filter: (f) => 
+        (f.slug!.startsWith("posts/") || f.slug!.startsWith("thoughts/")) && 
+        f.slug! !== "posts/index" && f.slug! !== "thoughts/index",
+    }),
     Component.Explorer(),
   ],
   right: [
@@ -61,6 +66,13 @@ export const defaultListPageLayout: PageLayout = {
         },
         { Component: Component.Darkmode() },
       ],
+    }),
+    Component.RecentNotes({
+      title: "Recent Updates",
+      limit: 5,
+      filter: (f) => 
+        (f.slug!.startsWith("posts/") || f.slug!.startsWith("thoughts/")) && 
+        f.slug! !== "posts/index" && f.slug! !== "thoughts/index",
     }),
     Component.Explorer(),
   ],

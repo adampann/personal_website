@@ -5,6 +5,7 @@ categories:
   - technology
   - thoughts
 date: 2022-10-06
+draft: false
 ---
 
 # **Who** is Adam Pann?

@@ -10,13 +10,13 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "Adam Pann",
     baseUrl: "adampann.com", // Do not include https:// or trailing slashes
-    pageTitle: "Quartz 4",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
+    header: `<script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>`,
     locale: "en-US",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
