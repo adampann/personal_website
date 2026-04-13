@@ -1,11 +1,10 @@
 ---
 layout: post
 title: The 5 W's & 1 H of adampann.com
-categories:
-  - technology
-  - thoughts
 date: 2022-10-06
 draft: false
+tags:
+  - technology
 ---
 
 # **Who** is Adam Pann?
