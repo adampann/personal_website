@@ -1,5 +1,5 @@
 ---
-title: [WIP] Health Data: How should we actually use it
+title: WIP Health Data: How should we actually use it
 date: 2026-04-12
 draft: false
 tags:
@@ -20,6 +20,12 @@ tags:
 
 ## Health vs Fitness Data?
 - There is probably a venn diagram where the overlap is high but not 100%.
-- Health data like sleep, 
+- Health data looks to the past for markers of bad things to come.
+- Fitness data aims to informs you about what changes you should make in the future.
+
+
+
+
+
 
 
