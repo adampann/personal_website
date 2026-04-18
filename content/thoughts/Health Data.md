@@ -1,5 +1,5 @@
 ---
-title: WIP Health Data: How should we actually use it
+title: "[WIP] Health Data: How should we actually use it"
 date: 2026-04-12
 draft: false
 tags:
