@@ -86,7 +86,7 @@ export default (() => {
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
 
-        <!-- Google tag (gtag.js) -->
+        {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-3Y7RXMNYQ6"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
