@@ -1,5 +1,5 @@
 ---
-title: "Sharing info at work is hard"
+title: "[WIP] Sharing info at work is hard"
 date: 2026-04-17
 draft: false
 tags:
