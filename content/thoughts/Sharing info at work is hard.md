@@ -5,6 +5,7 @@ draft: true
 tags:
   - thoughts
   - work
+  - wip
 ---
 
 # Sharing info at work is hard
@@ -17,4 +18,8 @@ Companies struggle to share internal success in a meaningful way that feels genu
 Working with a bunch of engineers both mechanical and software we all enjoy talking about the problem each other are facing in our respective team. As a software person I often don't fully understand the problems a mechanical engineer is working through but learning about the challenges and requirements they are aiming to meet allows me to appreciate the work they are doing. Which means if in a couple I hear they completed a part design I understand it wasn't a trivial problem. Real work happened.
 
 ## Jira tickets are for tracking not informing
-Too often 
+- The information to work a feature/bug is not always in a ticket
+	- error logs
+	- slack message threads
+	- pointers to spots in code my informed people ("I think the bug is in this file")
+-  tickets closed by 

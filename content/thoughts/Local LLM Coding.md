@@ -1,11 +1,12 @@
 ---
 title: "Local LLM Coding"
 date: 2026-04-20
-draft: true
+draft: false
 tags:
   - thoughts
   - llm
   - coding
+  - wip
 ---
 
 # Local LLM Coding
