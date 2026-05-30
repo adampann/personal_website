@@ -1,13 +1,14 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Adam Pann
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
+    provider: google
+    tagId: G-3Y7RXMNYQ6
   locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  baseUrl: adampann.com
   ignorePatterns:
     - private
     - templates
@@ -196,10 +197,15 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        Privacy Notice: /privacy
   - source: github:quartz-community/recent-notes
-    enabled: false
+    enabled: true
+    options:
+      title: Recent Updates
+      limit: 5
+    layout:
+      position: left
+      priority: 45
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
