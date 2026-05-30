@@ -7,7 +7,9 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [],
   footer: Component.Footer({
-    links: {},
+    links: {
+      "Privacy Notice": "/privacy",
+    },
   }),
 }
 
@@ -39,9 +41,10 @@ export const defaultContentPageLayout: PageLayout = {
       title: "Recent Updates",
       limit: 5,
       // This filter includes both the 'posts' and 'thoughts' folders
-      filter: (f) => 
-        (f.slug!.startsWith("posts/") || f.slug!.startsWith("thoughts/")) && 
-        f.slug! !== "posts/index" && f.slug! !== "thoughts/index",
+      filter: (f) =>
+        (f.slug!.startsWith("posts/") || f.slug!.startsWith("thoughts/")) &&
+        f.slug! !== "posts/index" &&
+        f.slug! !== "thoughts/index",
     }),
     Component.Explorer(),
   ],
@@ -70,9 +73,10 @@ export const defaultListPageLayout: PageLayout = {
     Component.RecentNotes({
       title: "Recent Updates",
       limit: 5,
-      filter: (f) => 
-        (f.slug!.startsWith("posts/") || f.slug!.startsWith("thoughts/")) && 
-        f.slug! !== "posts/index" && f.slug! !== "thoughts/index",
+      filter: (f) =>
+        (f.slug!.startsWith("posts/") || f.slug!.startsWith("thoughts/")) &&
+        f.slug! !== "posts/index" &&
+        f.slug! !== "thoughts/index",
     }),
     Component.Explorer(),
   ],
