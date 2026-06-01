@@ -1,0 +1,37 @@
+{
+  "name": "@adampann/mobile-nav",
+  "version": "0.1.0",
+  "description": "Mobile site navigation for Adam Pann's Quartz site",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    },
+    "./components": {
+      "import": "./dist/components/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "sideEffects": false,
+  "quartz": {
+    "name": "mobile-nav",
+    "displayName": "Mobile Navigation",
+    "description": "Compact mobile navigation links for the site header",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "defaultOptions": {},
+    "components": {
+      "MobileNav": {
+        "displayName": "Mobile Navigation",
+        "defaultPosition": "left",
+        "defaultPriority": 5
+      }
+    }
+  }
+}
